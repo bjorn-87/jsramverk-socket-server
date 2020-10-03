@@ -21,7 +21,7 @@ function formatedDate() {
     return formatedDate
 };
 
-io.origins(['https://socket-client.bjos19.me:443'])
+io.origins(['https://react.bjos19.me:443'])
 // io.origins(['http://localhost:3000'])
 
 io.on('connection', function (socket) {
